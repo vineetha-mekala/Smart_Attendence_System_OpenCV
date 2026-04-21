@@ -56,7 +56,7 @@ students/
    ├── Alice/
          ├── img1.jpg
 
-## Generate Face Encodings
+## Generate Face Encodings 
 
 Run this once before starting the app:
 
