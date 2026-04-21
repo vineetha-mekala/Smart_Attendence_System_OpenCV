@@ -24,6 +24,7 @@ Pandas
 Streamlit
 
 ## Project Structure
+```bash
 .
 ├── app.py                  # Streamlit UI
 ├── system_process.py       # Face detection & recognition
@@ -34,6 +35,7 @@ Streamlit
 ├── processed_images/      # Output images
 ├── encodings.pkl          # Saved embeddings
 ├── attendance.csv         # Attendance records
+```
 
 ## Setup Instructions
 1. Clone the repository
@@ -49,13 +51,14 @@ pip install streamlit opencv-python numpy pandas torch facenet-pytorch
 ## Prepare Dataset
 Create a folder named students/
 Inside it, create subfolders for each student:
+```bash
 students/
    ├── John/
    │     ├── img1.jpg
    │     ├── img2.jpg
    ├── Alice/
          ├── img1.jpg
-
+```
 ## Generate Face Encodings 
 
 Run this once before starting the app:
