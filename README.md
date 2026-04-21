@@ -5,22 +5,37 @@ This project is an AI-based Smart Attendance System that uses Face Recognition t
 It detects faces, recognizes students, and stores attendance records in a CSV file.
 
 ## Features
+
 1.Upload classroom images (1–3 images supported)
+
 2.Capture photo using webcam
+
 3.Face detection using MTCNN
+
 4.Face recognition using FaceNet (InceptionResnetV1)
+
 5.Marks attendance automatically
+
 6.Avoids duplicate entries for the same day
+
 7.Saves processed images with annotations
+
 8.Generates attendance CSV file
 
 ## Tech Stack
+
 1.Python
+
 2.OpenCV
+
 3.PyTorch
+
 4.facenet-pytorch
+
 5.NumPy
+
 6.Pandas
+
 7.Streamlit
 
 ## Project Structure
@@ -79,20 +94,33 @@ encodings.pkl
 streamlit run app.py
 ```
 ## How It Works
+
 1.User uploads images or captures via webcam
+
 2.Faces are detected using MTCNN
+
 3.Face embeddings are generated using FaceNet
+
 4.Compared with stored encodings using cosine similarity
+
 5.Recognized names are recorded in attendance.csv
+
 6.Processed images are saved with bounding boxes
 
 ## Output
+
 1.Processed Images → processed_images/
+
 2.Attendance File → attendance.csv
 
 ## Future Improvements
+
 1.Real-time video attendance
+
 2.Database integration (instead of CSV)
+
 3.UI improvements
+
 4.Multi-classroom support
+
 5.Cloud deployment
